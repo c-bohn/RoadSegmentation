@@ -46,7 +46,10 @@ The root folder contains the following:
 
 ```
 cil-project
+├── data/                 --> All image data for training and testing
 ├── model_architecture/   --> All baseline and u_net models
+├── model_files/          --> The model files that get gereated while training 
+├── results/              --> All predictios
 ├── utilities/            --> Various helper modules (bagging, whitening, aug etc)
 |
 ├──training.py            --> For training the model
